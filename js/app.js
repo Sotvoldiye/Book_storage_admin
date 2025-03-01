@@ -20,7 +20,6 @@ form.addEventListener("submit", (e) => {
 
   newArray.push(NewObject);
 
-
   localStorage.setItem("cards", JSON.stringify(newArray));
 
   form.reset();

@@ -62,16 +62,15 @@ input:focus {
     height: 260px;
 }
 
-a{
+a {
     text-decoration: none;
     font-size: 20px;
 }
 
-#init_book{
-    padding: 10px 20px; 
-    border-radius:7px ;
+#init_book {
+    padding: 10px 20px;
+    border-radius: 7px;
     border: none;
     margin-left: auto;
     cursor: pointer;
-} 
-
+}

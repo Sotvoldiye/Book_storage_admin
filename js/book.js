@@ -1,5 +1,5 @@
 const cards = document.querySelector(".cards");
-const rest = document.querySelector('.reset')
+const rest = document.querySelector(".reset");
 let newArray = JSON.parse(localStorage.getItem("cards")) || [];
 
 function renderBooks() {
@@ -18,16 +18,11 @@ function renderBooks() {
   });
 }
 
-rest.addEventListener("click", ()=>{
-restart()
+rest.addEventListener("click", () => {
+  restart();
+});
 
-})
-
-const restart = ()=>{
-  localStorage.clear()
-  cards.innerHTML = ''
-}
-
-
-
-document.addEventListener("DOMContentLoaded", renderBooks);
+const restart = () => {
+  localStorage.clear();
+  cards.innerHTML = "";
+};
